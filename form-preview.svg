@@ -1,104 +1,71 @@
-<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" width="800" height="500">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#1a0500"/>
-      <stop offset="100%" stop-color="#0a0a0a"/>
-    </linearGradient>
-  </defs>
-
-  <!-- Background -->
-  <rect width="800" height="500" fill="url(#bg)" rx="12"/>
-
-  <!-- Grid dots -->
-  <pattern id="dots" x="0" y="0" width="30" height="30" patternUnits="userSpaceOnUse">
-    <circle cx="2" cy="2" r="1" fill="#CC3300" opacity="0.08"/>
-  </pattern>
-  <rect width="800" height="500" fill="url(#dots)"/>
-
-  <!-- Browser chrome -->
-  <rect x="60" y="30" width="680" height="440" rx="10" fill="#111" stroke="#2a2a2a" stroke-width="1"/>
-  <!-- browser top bar -->
-  <rect x="60" y="30" width="680" height="36" rx="10" fill="#1e1e1e"/>
-  <rect x="60" y="54" width="680" height="12" fill="#1e1e1e"/>
-  <!-- browser dots -->
-  <circle cx="84" cy="48" r="5" fill="#ff5f57"/>
-  <circle cx="100" cy="48" r="5" fill="#ffbd2e"/>
-  <circle cx="116" cy="48" r="5" fill="#28c840"/>
-  <!-- url bar -->
-  <rect x="140" y="40" width="460" height="16" rx="8" fill="#2a2a2a"/>
-  <text x="370" y="52" text-anchor="middle" fill="#666" font-family="monospace" font-size="8">🔒  leads.yourdomain.com/form/inquiry</text>
-
+<svg viewBox="0 0 800 460" xmlns="http://www.w3.org/2000/svg" width="800" height="460">
+  <rect width="800" height="460" fill="#0a0a0a" rx="12"/>
+  <text x="400" y="28" text-anchor="middle" fill="#CC3300" font-family="monospace" font-size="11" font-weight="bold" letter-spacing="3">BRANDED LEAD CAPTURE FORM</text>
+  <!-- Browser -->
+  <rect x="55" y="42" width="690" height="390" rx="10" fill="#111" stroke="#222" stroke-width="1"/>
+  <rect x="55" y="42" width="690" height="34" rx="10" fill="#1e1e1e"/>
+  <rect x="55" y="64" width="690" height="12" fill="#1e1e1e"/>
+  <circle cx="78" cy="59" r="5" fill="#ff5f57"/>
+  <circle cx="94" cy="59" r="5" fill="#ffbd2e"/>
+  <circle cx="110" cy="59" r="5" fill="#28c840"/>
+  <rect x="138" y="51" width="420" height="16" rx="8" fill="#2a2a2a"/>
+  <text x="348" y="63" text-anchor="middle" fill="#555" font-family="monospace" font-size="8">https://leads.yourdomain.com/form/inquiry</text>
+  <text x="148" y="63" fill="#4ade80" font-family="monospace" font-size="8">&#128274;</text>
   <!-- Form card -->
-  <rect x="240" y="75" width="320" height="378" rx="8" fill="white"/>
-
-  <!-- Logo area -->
-  <rect x="280" y="90" width="240" height="60" rx="6" fill="#1a1a1a"/>
-  <text x="400" y="118" text-anchor="middle" fill="#CC3300" font-family="Arial" font-size="13" font-weight="bold">ELITE METAL WORKS</text>
-  <text x="400" y="134" text-anchor="middle" fill="#888" font-family="Arial" font-size="8">Welding Training LLC · Bakersfield, CA</text>
-
-  <!-- Form title -->
+  <rect x="230" y="82" width="340" height="332" rx="8" fill="white"/>
+  <!-- Logo -->
+  <rect x="252" y="96" width="296" height="56" rx="6" fill="#1a1a1a"/>
+  <text x="400" y="122" text-anchor="middle" fill="#CC3300" font-family="Arial" font-size="13" font-weight="bold">ELITE METAL WORKS</text>
+  <text x="400" y="138" text-anchor="middle" fill="#888" font-family="Arial" font-size="8">Welding Training LLC · Bakersfield, CA</text>
   <text x="400" y="172" text-anchor="middle" fill="#1a1a1a" font-family="Arial" font-size="11" font-weight="bold">Class Inquiry Form</text>
-
-  <!-- Field: Student Name -->
-  <text x="258" y="194" fill="#555" font-family="Arial" font-size="8">Student Name</text>
-  <rect x="256" y="198" width="286" height="22" rx="4" fill="white" stroke="#ddd" stroke-width="1"/>
-  <!-- typing animation -->
-  <text x="262" y="213" fill="#333" font-family="Arial" font-size="9">
-    <tspan>Alex Johnson</tspan>
-  </text>
-  <rect x="352" y="202" width="1" height="14" fill="#333">
-    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
-  </rect>
-
+  <!-- Field: Name -->
+  <text x="248" y="192" fill="#888" font-family="Arial" font-size="8">Student Name</text>
+  <rect x="246" y="196" width="308" height="22" rx="4" fill="white" stroke="#ddd" stroke-width="1"/>
+  <text x="254" y="211" fill="#333" font-family="Arial" font-size="9">Alex Johnson</text>
   <!-- Field: Phone -->
-  <text x="258" y="234" fill="#555" font-family="Arial" font-size="8">Phone Number</text>
-  <rect x="256" y="238" width="286" height="22" rx="4" fill="white" stroke="#ddd" stroke-width="1"/>
-  <text x="262" y="253" fill="#333" font-family="Arial" font-size="9">(661) 555-0192</text>
-
-  <!-- Field: Interested Class dropdown -->
-  <text x="258" y="274" fill="#555" font-family="Arial" font-size="8">Interested Class</text>
-  <rect x="256" y="278" width="286" height="22" rx="4" fill="white" stroke="#CC3300" stroke-width="1.5"/>
-  <text x="262" y="293" fill="#CC3300" font-family="Arial" font-size="9" font-weight="bold">TIG Welding</text>
-  <text x="530" y="293" fill="#CC3300" font-family="Arial" font-size="10">▾</text>
-
+  <text x="248" y="230" fill="#888" font-family="Arial" font-size="8">Phone Number</text>
+  <rect x="246" y="234" width="308" height="22" rx="4" fill="white" stroke="#ddd" stroke-width="1"/>
+  <text x="254" y="249" fill="#333" font-family="Arial" font-size="9">(661) 555-0192</text>
+  <!-- Field: Class dropdown - highlighted -->
+  <text x="248" y="270" fill="#888" font-family="Arial" font-size="8">Interested Class</text>
+  <rect x="246" y="274" width="308" height="22" rx="4" fill="white" stroke="#CC3300" stroke-width="1.5"/>
+  <text x="254" y="289" fill="#CC3300" font-family="Arial" font-size="9" font-weight="bold">TIG Welding  &#9660;</text>
   <!-- Field: Email -->
-  <text x="258" y="314" fill="#555" font-family="Arial" font-size="8">Email Address *</text>
-  <rect x="256" y="318" width="286" height="22" rx="4" fill="white" stroke="#ddd" stroke-width="1"/>
-  <text x="262" y="333" fill="#333" font-family="Arial" font-size="9">alex@email.com</text>
-
+  <text x="248" y="310" fill="#888" font-family="Arial" font-size="8">Email Address *</text>
+  <rect x="246" y="314" width="308" height="22" rx="4" fill="white" stroke="#ddd" stroke-width="1"/>
+  <text x="254" y="329" fill="#333" font-family="Arial" font-size="9">alex@email.com</text>
   <!-- Field: Message -->
-  <text x="258" y="354" fill="#555" font-family="Arial" font-size="8">Tell us about your project or ask a question</text>
-  <rect x="256" y="358" width="286" height="48" rx="4" fill="white" stroke="#ddd" stroke-width="1"/>
-  <text x="262" y="371" fill="#333" font-family="Arial" font-size="8">I'm interested in learning TIG welding.</text>
-  <text x="262" y="383" fill="#333" font-family="Arial" font-size="8">I have some basic experience and want</text>
-  <text x="262" y="395" fill="#333" font-family="Arial" font-size="8">to improve my technique.</text>
-
-  <!-- Submit button -->
-  <rect x="256" y="416" width="286" height="28" rx="5" fill="#CC3300">
-    <animate attributeName="opacity" values="1;0.85;1" dur="2s" repeatCount="indefinite"/>
-  </rect>
-  <text x="399" y="434" text-anchor="middle" fill="white" font-family="Arial" font-size="10" font-weight="bold">Submit Inquiry</text>
-
-  <!-- Floating notification badge (top right) -->
-  <g transform="translate(590, 90)">
-    <rect width="120" height="55" rx="8" fill="#1a1a1a" stroke="#0ea5e9" stroke-width="1"/>
-    <text x="10" y="18" fill="#38bdf8" font-family="monospace" font-size="8" font-weight="bold">📱 NEW LEAD</text>
-    <text x="10" y="32" fill="#888" font-family="monospace" font-size="7">Alex Johnson</text>
-    <text x="10" y="44" fill="#555" font-family="monospace" font-size="7">TIG · Advanced</text>
-    <animate attributeName="opacity" values="0;1;1;1;0" dur="4s" repeatCount="indefinite"/>
-    <animateTransform attributeName="transform" type="translate" values="590,110; 590,90; 590,90; 590,90; 590,110" dur="4s" repeatCount="indefinite"/>
-  </g>
-
-  <!-- AI badge bottom left -->
-  <g transform="translate(90, 350)">
-    <rect width="120" height="65" rx="8" fill="#1a1a1a" stroke="#7c3aed" stroke-width="1"/>
-    <text x="10" y="18" fill="#a78bfa" font-family="monospace" font-size="8" font-weight="bold">🤖 AI RESPONSE</text>
-    <text x="10" y="32" fill="#888" font-family="monospace" font-size="7">Category:</text>
-    <text x="10" y="44" fill="#CC3300" font-family="monospace" font-size="8" font-weight="bold">Advanced (TIG)</text>
-    <text x="10" y="58" fill="#555" font-family="monospace" font-size="7">Generating reply...</text>
-    <animate attributeName="opacity" values="0;0;1;1;0" dur="4s" repeatCount="indefinite"/>
-  </g>
-
-  <!-- bottom label -->
-  <text x="400" y="490" text-anchor="middle" fill="#333" font-family="monospace" font-size="9">Branded Lead Capture Form · Secured via Cloudflare Tunnel · HTTPS</text>
+  <text x="248" y="350" fill="#888" font-family="Arial" font-size="8">Tell us about your project or question</text>
+  <rect x="246" y="354" width="308" height="40" rx="4" fill="white" stroke="#ddd" stroke-width="1"/>
+  <text x="254" y="367" fill="#333" font-family="Arial" font-size="8">Interested in TIG welding classes.</text>
+  <text x="254" y="379" fill="#333" font-family="Arial" font-size="8">I have basic experience and want to improve.</text>
+  <!-- Submit -->
+  <rect x="246" y="404" width="308" height="26" rx="5" fill="#CC3300"/>
+  <text x="400" y="421" text-anchor="middle" fill="white" font-family="Arial" font-size="10" font-weight="bold">Submit Inquiry</text>
+  <!-- Notification badge -->
+  <rect x="580" y="90" width="140" height="62" rx="8" fill="#1a1a1a" stroke="#0ea5e9" stroke-width="1.5"/>
+  <rect x="580" y="90" width="140" height="5" rx="2" fill="#0ea5e9"/>
+  <text x="590" y="110" fill="#38bdf8" font-family="monospace" font-size="9" font-weight="bold">&#128241; NEW LEAD</text>
+  <text x="590" y="125" fill="#888" font-family="monospace" font-size="8">Alex Johnson</text>
+  <text x="590" y="139" fill="#CC3300" font-family="monospace" font-size="8" font-weight="bold">TIG · Advanced</text>
+  <text x="590" y="150" fill="#555" font-family="monospace" font-size="7">Pushover Alert Sent</text>
+  <!-- AI badge -->
+  <rect x="580" y="170" width="140" height="72" rx="8" fill="#1a1a1a" stroke="#7c3aed" stroke-width="1.5"/>
+  <rect x="580" y="170" width="140" height="5" rx="2" fill="#7c3aed"/>
+  <text x="590" y="190" fill="#a78bfa" font-family="monospace" font-size="9" font-weight="bold">&#129302; AI RESPONSE</text>
+  <text x="590" y="205" fill="#888" font-family="monospace" font-size="8">Category Detected:</text>
+  <text x="590" y="219" fill="#CC3300" font-family="monospace" font-size="9" font-weight="bold">Advanced (TIG)</text>
+  <text x="590" y="233" fill="#4ade80" font-family="monospace" font-size="7">&#10003; Email Sent</text>
+  <!-- Sheets badge -->
+  <rect x="580" y="258" width="140" height="62" rx="8" fill="#1a1a1a" stroke="#16a34a" stroke-width="1.5"/>
+  <rect x="580" y="258" width="140" height="5" rx="2" fill="#16a34a"/>
+  <text x="590" y="278" fill="#4ade80" font-family="monospace" font-size="9" font-weight="bold">&#128202; SHEETS LOG</text>
+  <text x="590" y="293" fill="#888" font-family="monospace" font-size="8">Row Added</text>
+  <text x="590" y="307" fill="#555" font-family="monospace" font-size="7">Lead Captured · 2026-04-10</text>
+  <!-- Cloudflare banner -->
+  <rect x="55" y="344" width="690" height="58" rx="0" fill="#111"/>
+  <rect x="55" y="344" width="690" height="1" fill="#1a1a1a"/>
+  <text x="400" y="365" text-anchor="middle" fill="#f97316" font-family="monospace" font-size="9" font-weight="bold">&#128274; CLOUDFLARE TUNNEL ACTIVE</text>
+  <text x="400" y="380" text-anchor="middle" fill="#555" font-family="monospace" font-size="8">All traffic encrypted · No server IP exposed · Zero open firewall ports</text>
+  <text x="400" y="394" text-anchor="middle" fill="#444" font-family="monospace" font-size="7">Built by JPARO Systems · AI-Powered Lead Automation</text>
 </svg>
