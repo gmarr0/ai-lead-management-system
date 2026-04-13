@@ -1,7 +1,7 @@
 # 🔧 AI-Powered Lead Management System
 ### Built for a Local Welding Training Business
 
-![Workflow](assets/workflow.svg)
+[Workflow](assets/workflow.svg)
 
 ---
 
@@ -22,17 +22,24 @@ Zero SaaS fees. Fully self-hosted. Runs 24/7 without human intervention.
 
 ## Live Form Preview
 
-![Form Preview](assets/form-preview.svg)
+[Form Preview]
+
+<img width="797" height="460" alt="Screenshot 2026-04-13 150928" src="https://github.com/user-attachments/assets/7044ac62-e757-47f5-881f-5903cf203a53" />
+
 
 ---
 
 ## Automated Email Responses
 
-![Email Preview](assets/email-preview.svg)
+[Email Preview]
+
+<img width="898" height="441" alt="Screenshot 2026-04-13 150819" src="https://github.com/user-attachments/assets/e285a8c6-fee3-4929-b442-24005e0d3421" />
 
 ---
 
 ## How It Works
+
+<img width="897" height="398" alt="Screenshot 2026-04-13 150903" src="https://github.com/user-attachments/assets/6eb600b8-e48a-4b9f-a806-186314a410cc" />
 
 ```
 Form Submission
