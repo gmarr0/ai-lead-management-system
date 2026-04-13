@@ -1,0 +1,103 @@
+<svg viewBox="0 0 800 480" xmlns="http://www.w3.org/2000/svg" width="800" height="480">
+  <rect width="800" height="480" fill="#0a0a0a" rx="12"/>
+  <pattern id="g2" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r="1" fill="#CC3300" opacity="0.06"/>
+  </pattern>
+  <rect width="800" height="480" fill="url(#g2)"/>
+
+  <!-- Title -->
+  <text x="400" y="34" text-anchor="middle" fill="#CC3300" font-family="monospace" font-size="12" font-weight="bold" letter-spacing="3">AUTOMATED EMAIL RESPONSES</text>
+
+  <!-- Email card -->
+  <rect x="180" y="55" width="440" height="370" rx="10" fill="white"/>
+
+  <!-- Email top bar -->
+  <rect x="180" y="55" width="440" height="32" rx="10" fill="#f5f5f5"/>
+  <rect x="180" y="75" width="440" height="12" fill="#f5f5f5"/>
+  <circle cx="200" cy="71" r="5" fill="#ff5f57"/>
+  <circle cx="216" cy="71" r="5" fill="#ffbd2e"/>
+  <circle cx="232" cy="71" r="5" fill="#28c840"/>
+
+  <!-- Email content -->
+  <!-- Logo bar -->
+  <rect x="200" y="98" width="400" height="48" rx="4" fill="#CC3300"/>
+  <text x="400" y="120" text-anchor="middle" fill="white" font-family="Arial" font-size="12" font-weight="bold">ELITE METAL WORKS</text>
+  <text x="400" y="136" text-anchor="middle" fill="#ffccbb" font-family="Arial" font-size="8">Welding Training LLC · Bakersfield, CA</text>
+
+  <!-- Greeting - animates between 5 versions -->
+  <g id="email-beginner">
+    <text x="210" y="166" fill="#1a1a1a" font-family="Arial" font-size="10" font-weight="bold">Hi Alex, welcome to Elite Metal Works!</text>
+    <rect x="200" y="172" width="400" height="3" rx="1" fill="#CC3300" opacity="0.3"/>
+    <text x="210" y="186" fill="#555" font-family="Arial" font-size="9">Thanks for your interest in MIG/STICK welding. You've picked a</text>
+    <text x="210" y="198" fill="#555" font-family="Arial" font-size="9">great place to start. Our hands-on classes take students to real</text>
+    <text x="210" y="210" fill="#555" font-family="Arial" font-size="9">job sites from day one.</text>
+    <rect x="200" y="220" width="400" height="36" rx="4" fill="#fff5f2"/>
+    <text x="210" y="235" fill="#CC3300" font-family="Arial" font-size="8" font-weight="bold">🔧 What to expect:</text>
+    <text x="210" y="248" fill="#777" font-family="Arial" font-size="8">Hands-on welding · Real job sites · Beginner-friendly environment</text>
+    <text x="210" y="270" fill="#555" font-family="Arial" font-size="9">We'll be in touch shortly to discuss scheduling!</text>
+    <text x="210" y="288" fill="#1a1a1a" font-family="Arial" font-size="9" font-weight="bold">— The Elite Metal Works Team</text>
+    <!-- category badge -->
+    <rect x="530" y="158" width="60" height="18" rx="9" fill="#CC3300"/>
+    <text x="560" y="171" text-anchor="middle" fill="white" font-family="Arial" font-size="8" font-weight="bold">BEGINNER</text>
+    <animate attributeName="opacity" values="1;1;0;0;0;0;0;0;0;0;1" dur="10s" repeatCount="indefinite"/>
+  </g>
+
+  <g id="email-advanced" opacity="0">
+    <text x="210" y="166" fill="#1a1a1a" font-family="Arial" font-size="10" font-weight="bold">Hi Jordan, great choice going for TIG.</text>
+    <rect x="200" y="172" width="400" height="3" rx="1" fill="#7c3aed" opacity="0.3"/>
+    <text x="210" y="186" fill="#555" font-family="Arial" font-size="9">TIG welding is one of the most precise skills in the trade.</text>
+    <text x="210" y="198" fill="#555" font-family="Arial" font-size="9">Our advanced program puts you on real working job sites</text>
+    <text x="210" y="210" fill="#555" font-family="Arial" font-size="9">with professional guidance from day one.</text>
+    <rect x="200" y="220" width="400" height="36" rx="4" fill="#f5f3ff"/>
+    <text x="210" y="235" fill="#7c3aed" font-family="Arial" font-size="8" font-weight="bold">⚡ Advanced Program:</text>
+    <text x="210" y="248" fill="#777" font-family="Arial" font-size="8">Precision technique · Job site experience · Personal instruction</text>
+    <text x="210" y="270" fill="#555" font-family="Arial" font-size="9">Someone will follow up with program details shortly.</text>
+    <text x="210" y="288" fill="#1a1a1a" font-family="Arial" font-size="9" font-weight="bold">— The Elite Metal Works Team</text>
+    <rect x="527" y="158" width="63" height="18" rx="9" fill="#7c3aed"/>
+    <text x="558" y="171" text-anchor="middle" fill="white" font-family="Arial" font-size="8" font-weight="bold">ADVANCED</text>
+    <animate attributeName="opacity" values="0;0;1;1;0;0;0;0;0;0;0" dur="10s" repeatCount="indefinite"/>
+  </g>
+
+  <g id="email-client" opacity="0">
+    <text x="210" y="166" fill="#1a1a1a" font-family="Arial" font-size="10" font-weight="bold">Hi Maria, we'd love to help with your project.</text>
+    <rect x="200" y="172" width="400" height="3" rx="1" fill="#16a34a" opacity="0.3"/>
+    <text x="210" y="186" fill="#555" font-family="Arial" font-size="9">We received your welding project inquiry. Elite Metal Works</text>
+    <text x="210" y="198" fill="#555" font-family="Arial" font-size="9">takes on local repair and fabrication work throughout the</text>
+    <text x="210" y="210" fill="#555" font-family="Arial" font-size="9">Bakersfield community.</text>
+    <rect x="200" y="220" width="400" height="36" rx="4" fill="#f0fdf4"/>
+    <text x="210" y="235" fill="#16a34a" font-family="Arial" font-size="8" font-weight="bold">🔩 Local Client Work:</text>
+    <text x="210" y="248" fill="#777" font-family="Arial" font-size="8">Repair · Fabrication · Real job sites · Owner will follow up personally</text>
+    <text x="210" y="270" fill="#555" font-family="Arial" font-size="9">Feel free to reply with photos of your project!</text>
+    <text x="210" y="288" fill="#1a1a1a" font-family="Arial" font-size="9" font-weight="bold">— The Elite Metal Works Team</text>
+    <rect x="540" y="158" width="50" height="18" rx="9" fill="#16a34a"/>
+    <text x="565" y="171" text-anchor="middle" fill="white" font-family="Arial" font-size="8" font-weight="bold">CLIENT</text>
+    <animate attributeName="opacity" values="0;0;0;0;1;1;0;0;0;0;0" dur="10s" repeatCount="indefinite"/>
+  </g>
+
+  <g id="email-kids" opacity="0">
+    <text x="210" y="166" fill="#1a1a1a" font-family="Arial" font-size="10" font-weight="bold">Hi Sarah, we're excited about your inquiry!</text>
+    <rect x="200" y="172" width="400" height="3" rx="1" fill="#0ea5e9" opacity="0.3"/>
+    <text x="210" y="186" fill="#555" font-family="Arial" font-size="9">Our Kids Workshop is designed to be safe, fun, and educational.</text>
+    <text x="210" y="198" fill="#555" font-family="Arial" font-size="9">Young people get real hands-on experience in a supervised,</text>
+    <text x="210" y="210" fill="#555" font-family="Arial" font-size="9">age-appropriate environment.</text>
+    <rect x="200" y="220" width="400" height="36" rx="4" fill="#f0f9ff"/>
+    <text x="210" y="235" fill="#0ea5e9" font-family="Arial" font-size="8" font-weight="bold">⭐ Kids Workshop:</text>
+    <text x="210" y="248" fill="#777" font-family="Arial" font-size="8">Safe · Supervised · Fun · Real skills for young learners</text>
+    <text x="210" y="270" fill="#555" font-family="Arial" font-size="9">Can't wait to meet your young welder!</text>
+    <text x="210" y="288" fill="#1a1a1a" font-family="Arial" font-size="9" font-weight="bold">— The Elite Metal Works Team</text>
+    <rect x="545" y="158" width="45" height="18" rx="9" fill="#0ea5e9"/>
+    <text x="567" y="171" text-anchor="middle" fill="white" font-family="Arial" font-size="8" font-weight="bold">KIDS</text>
+    <animate attributeName="opacity" values="0;0;0;0;0;0;1;1;0;0;0" dur="10s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- footer of email -->
+  <rect x="200" y="300" width="400" height="1" fill="#eee"/>
+  <text x="400" y="316" text-anchor="middle" fill="#aaa" font-family="Arial" font-size="8">Elite Metal Works Welding Training LLC · Bakersfield, CA</text>
+  <text x="400" y="328" text-anchor="middle" fill="#ccc" font-family="Arial" font-size="8">Automated with AI · Sent within seconds of form submission</text>
+
+  <!-- Tick marks showing speed -->
+  <text x="400" y="362" text-anchor="middle" fill="#CC3300" font-family="monospace" font-size="9" font-weight="bold">⚡ Average response time: under 30 seconds</text>
+
+  <!-- Cycling label -->
+  <text x="400" y="460" text-anchor="middle" fill="#444" font-family="monospace" font-size="9">5 unique email templates · AI-personalized for every lead type</text>
+</svg>
