@@ -1,103 +1,313 @@
-<svg viewBox="0 0 800 480" xmlns="http://www.w3.org/2000/svg" width="800" height="480">
-  <rect width="800" height="480" fill="#0a0a0a" rx="12"/>
-  <pattern id="g2" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
-    <circle cx="1" cy="1" r="1" fill="#CC3300" opacity="0.06"/>
-  </pattern>
-  <rect width="800" height="480" fill="url(#g2)"/>
+<svg viewBox="0 0 900 440" xmlns="http://www.w3.org/2000/svg" width="900" height="440">
+  <rect width="900" height="440" fill="#0a0a0a" rx="12"/>
+  <text x="450" y="28" text-anchor="middle" fill="#CC3300" font-family="monospace" font-size="11" font-weight="bold" letter-spacing="3">AI-PERSONALIZED EMAIL RESPONSES · 5 CATEGORIES</text>
 
-  <!-- Title -->
-  <text x="400" y="34" text-anchor="middle" fill="#CC3300" font-family="monospace" font-size="12" font-weight="bold" letter-spacing="3">AUTOMATED EMAIL RESPONSES</text>
+  <!-- Card 1: Beginner -->
+  <rect x="20" y="44" width="166" height="180" rx="8" fill="#1a1a1a" stroke="#CC3300" stroke-width="1.5"/>
+  <rect x="20" y="44" width="166" height="5" rx="3" fill="#CC3300"/>
+  <rect x="20" y="44" width="166" height="28" rx="8" fill="#CC3300"/>
+  <rect x="20" y="60" width="166" height="12" fill="#CC3300"/>
+  <text x="103" y="63" text-anchor="middle" fill="white" font-family="monospace" font-size="9" font-weight="bold">BEGINNER</text>
+  <text x="103" y="85" text-anchor="middle" fill="#888" font-family="Arial" font-size="8">MIG / STICK Welding</text>
+  <text x="103" y="100" text-anchor="middle" fill="#CC3300" font-family="Arial" font-size="8" font-weight="bold">Hi Alex, welcome!</text>
+  <rect x="30" y="106" width="146" height="3" rx="1" fill="#CC3300" opacity="0.3"/>
+  <text x="30" y="120" fill="#666" font-family="Arial" font-size="7">Thanks for your interest in</text>
+  <text x="30" y="131" fill="#666" font-family="Arial" font-size="7">MIG/STICK welding. You've</text>
+  <text x="30" y="142" fill="#666" font-family="Arial" font-size="7">picked a great place to start.</text>
+  <rect x="30" y="150" width="146" height="28" rx="4" fill="#1f1010"/>
+  <text x="38" y="163" fill="#CC3300" font-family="Arial" font-size="7" font-weight="bold">Hands-on from day one</text>
+  <text x="38" y="174" fill="#555" font-family="Arial" font-size="7">Real job sites · Beginner-friendly</text>
+  <text x="30" y="198" fill="#777" font-family="Arial" font-size="7">We'll be in touch shortly!</text>
+  <text x="30" y="212" fill="#CC3300" font-family="Arial" font-size="7" font-weight="bold">— Elite Metal Works Team</text>
 
-  <!-- Email card -->
-  <rect x="180" y="55" width="440" height="370" rx="10" fill="white"/>
+  <!-- Card 2: Advanced -->
+  <rect x="198" y="44" width="166" height="180" rx="8" fill="#1a1a1a" stroke="#7c3aed" stroke-width="1.5"/>
+  <rect x="198" y="44" width="166" height="28" rx="8" fill="#7c3aed"/>
+  <rect x="198" y="60" width="166" height="12" fill="#7c3aed"/>
+  <text x="281" y="63" text-anchor="middle" fill="white" font-family="monospace" font-size="9" font-weight="bold">ADVANCED</text>
+  <text x="281" y="85" text-anchor="middle" fill="#888" font-family="Arial" font-size="8">TIG Welding</text>
+  <text x="281" y="100" text-anchor="middle" fill="#a78bfa" font-family="Arial" font-size="8" font-weight="bold">Hi Jordan, great choice!</text>
+  <rect x="208" y="106" width="146" height="3" rx="1" fill="#7c3aed" opacity="0.3"/>
+  <text x="208" y="120" fill="#666" font-family="Arial" font-size="7">TIG welding is one of the most</text>
+  <text x="208" y="131" fill="#666" font-family="Arial" font-size="7">precise skills in the trade.</text>
+  <text x="208" y="142" fill="#666" font-family="Arial" font-size="7">You've come to the right place.</text>
+  <rect x="208" y="150" width="146" height="28" rx="4" fill="#110f1f"/>
+  <text x="216" y="163" fill="#a78bfa" font-family="Arial" font-size="7" font-weight="bold">Advanced TIG Program</text>
+  <text x="216" y="174" fill="#555" font-family="Arial" font-size="7">Real job sites · Personal instruction</text>
+  <text x="208" y="198" fill="#777" font-family="Arial" font-size="7">Someone will follow up shortly.</text>
+  <text x="208" y="212" fill="#CC3300" font-family="Arial" font-size="7" font-weight="bold">— Elite Metal Works Team</text>
 
-  <!-- Email top bar -->
-  <rect x="180" y="55" width="440" height="32" rx="10" fill="#f5f5f5"/>
-  <rect x="180" y="75" width="440" height="12" fill="#f5f5f5"/>
-  <circle cx="200" cy="71" r="5" fill="#ff5f57"/>
-  <circle cx="216" cy="71" r="5" fill="#ffbd2e"/>
-  <circle cx="232" cy="71" r="5" fill="#28c840"/>
+  <!-- Card 3: Client -->
+  <rect x="376" y="44" width="166" height="180" rx="8" fill="#1a1a1a" stroke="#16a34a" stroke-width="1.5"/>
+  <rect x="376" y="44" width="166" height="28" rx="8" fill="#16a34a"/>
+  <rect x="376" y="60" width="166" height="12" fill="#16a34a"/>
+  <text x="459" y="63" text-anchor="middle" fill="white" font-family="monospace" font-size="9" font-weight="bold">CLIENT</text>
+  <text x="459" y="85" text-anchor="middle" fill="#888" font-family="Arial" font-size="8">Local Welding Work</text>
+  <text x="459" y="100" text-anchor="middle" fill="#4ade80" font-family="Arial" font-size="8" font-weight="bold">Hi Maria, we can help!</text>
+  <rect x="386" y="106" width="146" height="3" rx="1" fill="#16a34a" opacity="0.3"/>
+  <text x="386" y="120" fill="#666" font-family="Arial" font-size="7">We received your project inquiry.</text>
+  <text x="386" y="131" fill="#666" font-family="Arial" font-size="7">Elite Metal Works takes on local</text>
+  <text x="386" y="142" fill="#666" font-family="Arial" font-size="7">repair &amp; fabrication work.</text>
+  <rect x="386" y="150" width="146" height="28" rx="4" fill="#0f1a10"/>
+  <text x="394" y="163" fill="#4ade80" font-family="Arial" font-size="7" font-weight="bold">Local Community Work</text>
+  <text x="394" y="174" fill="#555" font-family="Arial" font-size="7">Owner reviews project personally</text>
+  <text x="386" y="198" fill="#777" font-family="Arial" font-size="7">Reply with project photos!</text>
+  <text x="386" y="212" fill="#CC3300" font-family="Arial" font-size="7" font-weight="bold">— Elite Metal Works Team</text>
 
-  <!-- Email content -->
-  <!-- Logo bar -->
-  <rect x="200" y="98" width="400" height="48" rx="4" fill="#CC3300"/>
-  <text x="400" y="120" text-anchor="middle" fill="white" font-family="Arial" font-size="12" font-weight="bold">ELITE METAL WORKS</text>
-  <text x="400" y="136" text-anchor="middle" fill="#ffccbb" font-family="Arial" font-size="8">Welding Training LLC · Bakersfield, CA</text>
+  <!-- Card 4: Kids -->
+  <rect x="554" y="44" width="166" height="180" rx="8" fill="#1a1a1a" stroke="#0ea5e9" stroke-width="1.5"/>
+  <rect x="554" y="44" width="166" height="28" rx="8" fill="#0ea5e9"/>
+  <rect x="554" y="60" width="166" height="12" fill="#0ea5e9"/>
+  <text x="637" y="63" text-anchor="middle" fill="white" font-family="monospace" font-size="9" font-weight="bold">KIDS WORKSHOP</text>
+  <text x="637" y="85" text-anchor="middle" fill="#888" font-family="Arial" font-size="8">Parents Inquiring</text>
+  <text x="637" y="100" text-anchor="middle" fill="#38bdf8" font-family="Arial" font-size="8" font-weight="bold">Hi Sarah, we're excited!</text>
+  <rect x="564" y="106" width="146" height="3" rx="1" fill="#0ea5e9" opacity="0.3"/>
+  <text x="564" y="120" fill="#666" font-family="Arial" font-size="7">Our Kids Workshop is safe,</text>
+  <text x="564" y="131" fill="#666" font-family="Arial" font-size="7">fun, and educational for</text>
+  <text x="564" y="142" fill="#666" font-family="Arial" font-size="7">young learners.</text>
+  <rect x="564" y="150" width="146" height="28" rx="4" fill="#0a1520"/>
+  <text x="572" y="163" fill="#38bdf8" font-family="Arial" font-size="7" font-weight="bold">Kids Workshop Program</text>
+  <text x="572" y="174" fill="#555" font-family="Arial" font-size="7">Safe · Supervised · Real skills</text>
+  <text x="564" y="198" fill="#777" font-family="Arial" font-size="7">Can't wait to meet your welder!</text>
+  <text x="564" y="212" fill="#CC3300" font-family="Arial" font-size="7" font-weight="bold">— Elite Metal Works Team</text>
 
-  <!-- Greeting - animates between 5 versions -->
-  <g id="email-beginner">
-    <text x="210" y="166" fill="#1a1a1a" font-family="Arial" font-size="10" font-weight="bold">Hi Alex, welcome to Elite Metal Works!</text>
-    <rect x="200" y="172" width="400" height="3" rx="1" fill="#CC3300" opacity="0.3"/>
-    <text x="210" y="186" fill="#555" font-family="Arial" font-size="9">Thanks for your interest in MIG/STICK welding. You've picked a</text>
-    <text x="210" y="198" fill="#555" font-family="Arial" font-size="9">great place to start. Our hands-on classes take students to real</text>
-    <text x="210" y="210" fill="#555" font-family="Arial" font-size="9">job sites from day one.</text>
-    <rect x="200" y="220" width="400" height="36" rx="4" fill="#fff5f2"/>
-    <text x="210" y="235" fill="#CC3300" font-family="Arial" font-size="8" font-weight="bold">🔧 What to expect:</text>
-    <text x="210" y="248" fill="#777" font-family="Arial" font-size="8">Hands-on welding · Real job sites · Beginner-friendly environment</text>
-    <text x="210" y="270" fill="#555" font-family="Arial" font-size="9">We'll be in touch shortly to discuss scheduling!</text>
-    <text x="210" y="288" fill="#1a1a1a" font-family="Arial" font-size="9" font-weight="bold">— The Elite Metal Works Team</text>
-    <!-- category badge -->
-    <rect x="530" y="158" width="60" height="18" rx="9" fill="#CC3300"/>
-    <text x="560" y="171" text-anchor="middle" fill="white" font-family="Arial" font-size="8" font-weight="bold">BEGINNER</text>
-    <animate attributeName="opacity" values="1;1;0;0;0;0;0;0;0;0;1" dur="10s" repeatCount="indefinite"/>
-  </g>
+  <!-- Card 5: Custom -->
+  <rect x="732" y="44" width="148" height="180" rx="8" fill="#1a1a1a" stroke="#888" stroke-width="1.5"/>
+  <rect x="732" y="44" width="148" height="28" rx="8" fill="#555"/>
+  <rect x="732" y="60" width="148" height="12" fill="#555"/>
+  <text x="806" y="63" text-anchor="middle" fill="white" font-family="monospace" font-size="9" font-weight="bold">CUSTOM</text>
+  <text x="806" y="85" text-anchor="middle" fill="#888" font-family="Arial" font-size="8">General Inquiries</text>
+  <text x="806" y="100" text-anchor="middle" fill="#aaa" font-family="Arial" font-size="8" font-weight="bold">Hi there, we got it!</text>
+  <rect x="742" y="106" width="128" height="3" rx="1" fill="#555" opacity="0.3"/>
+  <text x="742" y="120" fill="#666" font-family="Arial" font-size="7">Thanks for reaching out to</text>
+  <text x="742" y="131" fill="#666" font-family="Arial" font-size="7">Elite Metal Works. Someone</text>
+  <text x="742" y="142" fill="#666" font-family="Arial" font-size="7">will follow up personally.</text>
+  <rect x="742" y="150" width="128" height="28" rx="4" fill="#1a1a1a" stroke="#333" stroke-width="1"/>
+  <text x="750" y="163" fill="#aaa" font-family="Arial" font-size="7" font-weight="bold">Personalized Follow-up</text>
+  <text x="750" y="174" fill="#555" font-family="Arial" font-size="7">Reply with any extra details</text>
+  <text x="742" y="198" fill="#777" font-family="Arial" font-size="7">Talk to you very soon!</text>
+  <text x="742" y="212" fill="#CC3300" font-family="Arial" font-size="7" font-weight="bold">— Elite Metal Works Team</text>
 
-  <g id="email-advanced" opacity="0">
-    <text x="210" y="166" fill="#1a1a1a" font-family="Arial" font-size="10" font-weight="bold">Hi Jordan, great choice going for TIG.</text>
-    <rect x="200" y="172" width="400" height="3" rx="1" fill="#7c3aed" opacity="0.3"/>
-    <text x="210" y="186" fill="#555" font-family="Arial" font-size="9">TIG welding is one of the most precise skills in the trade.</text>
-    <text x="210" y="198" fill="#555" font-family="Arial" font-size="9">Our advanced program puts you on real working job sites</text>
-    <text x="210" y="210" fill="#555" font-family="Arial" font-size="9">with professional guidance from day one.</text>
-    <rect x="200" y="220" width="400" height="36" rx="4" fill="#f5f3ff"/>
-    <text x="210" y="235" fill="#7c3aed" font-family="Arial" font-size="8" font-weight="bold">⚡ Advanced Program:</text>
-    <text x="210" y="248" fill="#777" font-family="Arial" font-size="8">Precision technique · Job site experience · Personal instruction</text>
-    <text x="210" y="270" fill="#555" font-family="Arial" font-size="9">Someone will follow up with program details shortly.</text>
-    <text x="210" y="288" fill="#1a1a1a" font-family="Arial" font-size="9" font-weight="bold">— The Elite Metal Works Team</text>
-    <rect x="527" y="158" width="63" height="18" rx="9" fill="#7c3aed"/>
-    <text x="558" y="171" text-anchor="middle" fill="white" font-family="Arial" font-size="8" font-weight="bold">ADVANCED</text>
-    <animate attributeName="opacity" values="0;0;1;1;0;0;0;0;0;0;0" dur="10s" repeatCount="indefinite"/>
-  </g>
+  <!-- How it works section -->
+  <rect x="20" y="242" width="860" height="170" rx="8" fill="#111" stroke="#222" stroke-width="1"/>
+  <text x="450" y="264" text-anchor="middle" fill="#CC3300" font-family="monospace" font-size="10" font-weight="bold">HOW AI PERSONALIZATION WORKS</text>
+  <line x1="20" y1="272" x2="880" y2="272" stroke="#222" stroke-width="1"/>
 
-  <g id="email-client" opacity="0">
-    <text x="210" y="166" fill="#1a1a1a" font-family="Arial" font-size="10" font-weight="bold">Hi Maria, we'd love to help with your project.</text>
-    <rect x="200" y="172" width="400" height="3" rx="1" fill="#16a34a" opacity="0.3"/>
-    <text x="210" y="186" fill="#555" font-family="Arial" font-size="9">We received your welding project inquiry. Elite Metal Works</text>
-    <text x="210" y="198" fill="#555" font-family="Arial" font-size="9">takes on local repair and fabrication work throughout the</text>
-    <text x="210" y="210" fill="#555" font-family="Arial" font-size="9">Bakersfield community.</text>
-    <rect x="200" y="220" width="400" height="36" rx="4" fill="#f0fdf4"/>
-    <text x="210" y="235" fill="#16a34a" font-family="Arial" font-size="8" font-weight="bold">🔩 Local Client Work:</text>
-    <text x="210" y="248" fill="#777" font-family="Arial" font-size="8">Repair · Fabrication · Real job sites · Owner will follow up personally</text>
-    <text x="210" y="270" fill="#555" font-family="Arial" font-size="9">Feel free to reply with photos of your project!</text>
-    <text x="210" y="288" fill="#1a1a1a" font-family="Arial" font-size="9" font-weight="bold">— The Elite Metal Works Team</text>
-    <rect x="540" y="158" width="50" height="18" rx="9" fill="#16a34a"/>
-    <text x="565" y="171" text-anchor="middle" fill="white" font-family="Arial" font-size="8" font-weight="bold">CLIENT</text>
-    <animate attributeName="opacity" values="0;0;0;0;1;1;0;0;0;0;0" dur="10s" repeatCount="indefinite"/>
-  </g>
+  <!-- Step flow -->
+  <rect x="40" y="284" width="120" height="48" rx="6" fill="#1a1a1a" stroke="#CC3300" stroke-width="1"/>
+  <text x="100" y="303" text-anchor="middle" fill="#CC3300" font-family="monospace" font-size="8" font-weight="bold">Form Submit</text>
+  <text x="100" y="316" text-anchor="middle" fill="#555" font-family="monospace" font-size="7">Name · Phone · Email</text>
+  <text x="100" y="326" text-anchor="middle" fill="#555" font-family="monospace" font-size="7">Class · Message</text>
+  <polygon points="162,308 172,308 167,318" fill="#CC3300"/>
+  <line x1="160" y1="308" x2="172" y2="308" stroke="#CC3300" stroke-width="1"/>
 
-  <g id="email-kids" opacity="0">
-    <text x="210" y="166" fill="#1a1a1a" font-family="Arial" font-size="10" font-weight="bold">Hi Sarah, we're excited about your inquiry!</text>
-    <rect x="200" y="172" width="400" height="3" rx="1" fill="#0ea5e9" opacity="0.3"/>
-    <text x="210" y="186" fill="#555" font-family="Arial" font-size="9">Our Kids Workshop is designed to be safe, fun, and educational.</text>
-    <text x="210" y="198" fill="#555" font-family="Arial" font-size="9">Young people get real hands-on experience in a supervised,</text>
-    <text x="210" y="210" fill="#555" font-family="Arial" font-size="9">age-appropriate environment.</text>
-    <rect x="200" y="220" width="400" height="36" rx="4" fill="#f0f9ff"/>
-    <text x="210" y="235" fill="#0ea5e9" font-family="Arial" font-size="8" font-weight="bold">⭐ Kids Workshop:</text>
-    <text x="210" y="248" fill="#777" font-family="Arial" font-size="8">Safe · Supervised · Fun · Real skills for young learners</text>
-    <text x="210" y="270" fill="#555" font-family="Arial" font-size="9">Can't wait to meet your young welder!</text>
-    <text x="210" y="288" fill="#1a1a1a" font-family="Arial" font-size="9" font-weight="bold">— The Elite Metal Works Team</text>
-    <rect x="545" y="158" width="45" height="18" rx="9" fill="#0ea5e9"/>
-    <text x="567" y="171" text-anchor="middle" fill="white" font-family="Arial" font-size="8" font-weight="bold">KIDS</text>
-    <animate attributeName="opacity" values="0;0;0;0;0;0;1;1;0;0;0" dur="10s" repeatCount="indefinite"/>
-  </g>
+  <rect x="174" y="284" width="120" height="48" rx="6" fill="#1a1a1a" stroke="#7c3aed" stroke-width="1"/>
+  <text x="234" y="303" text-anchor="middle" fill="#a78bfa" font-family="monospace" font-size="8" font-weight="bold">LLaMA 3 AI</text>
+  <text x="234" y="316" text-anchor="middle" fill="#555" font-family="monospace" font-size="7">Reads all fields</text>
+  <text x="234" y="326" text-anchor="middle" fill="#555" font-family="monospace" font-size="7">Returns JSON</text>
+  <line x1="296" y1="308" x2="308" y2="308" stroke="#CC3300" stroke-width="1"/>
+  <polygon points="296,308 306,308 301,318" fill="#CC3300"/>
 
-  <!-- footer of email -->
-  <rect x="200" y="300" width="400" height="1" fill="#eee"/>
-  <text x="400" y="316" text-anchor="middle" fill="#aaa" font-family="Arial" font-size="8">Elite Metal Works Welding Training LLC · Bakersfield, CA</text>
-  <text x="400" y="328" text-anchor="middle" fill="#ccc" font-family="Arial" font-size="8">Automated with AI · Sent within seconds of form submission</text>
+  <rect x="310" y="284" width="120" height="48" rx="6" fill="#1a1a1a" stroke="#f59e0b" stroke-width="1"/>
+  <text x="370" y="303" text-anchor="middle" fill="#fcd34d" font-family="monospace" font-size="8" font-weight="bold">Switch Router</text>
+  <text x="370" y="316" text-anchor="middle" fill="#555" font-family="monospace" font-size="7">Reads category</text>
+  <text x="370" y="326" text-anchor="middle" fill="#555" font-family="monospace" font-size="7">Routes to template</text>
+  <line x1="432" y1="308" x2="444" y2="308" stroke="#CC3300" stroke-width="1"/>
+  <polygon points="432,308 442,308 437,318" fill="#CC3300"/>
 
-  <!-- Tick marks showing speed -->
-  <text x="400" y="362" text-anchor="middle" fill="#CC3300" font-family="monospace" font-size="9" font-weight="bold">⚡ Average response time: under 30 seconds</text>
+  <rect x="446" y="284" width="120" height="48" rx="6" fill="#1a1a1a" stroke="#16a34a" stroke-width="1"/>
+  <text x="506" y="303" text-anchor="middle" fill="#4ade80" font-family="monospace" font-size="8" font-weight="bold">HTML Email</text>
+  <text x="506" y="316" text-anchor="middle" fill="#555" font-family="monospace" font-size="7">Branded template</text>
+  <text x="506" y="326" text-anchor="middle" fill="#555" font-family="monospace" font-size="7">AI response injected</text>
+  <line x1="568" y1="308" x2="580" y2="308" stroke="#CC3300" stroke-width="1"/>
+  <polygon points="568,308 578,308 573,318" fill="#CC3300"/>
 
-  <!-- Cycling label -->
-  <text x="400" y="460" text-anchor="middle" fill="#444" font-family="monospace" font-size="9">5 unique email templates · AI-personalized for every lead type</text>
+  <rect x="582" y="284" width="120" height="48" rx="6" fill="#CC3300"/>
+  <text x="642" y="303" text-anchor="middle" fill="white" font-family="monospace" font-size="8" font-weight="bold">Delivered</text>
+  <text x="642" y="316" text-anchor="middle" fill="#ffccbb" font-family="monospace" font-size="7">Lead inbox</text>
+  <text x="642" y="326" text-anchor="middle" fill="#ffccbb" font-family="monospace" font-size="7">Under 30 seconds</text>
+
+  <!-- Sample JSON output -->
+  <rect x="724" y="280" width="156" height="90" rx="6" fill="#0d1117" stroke="#333" stroke-width="1"/>
+  <text x="734" y="296" fill="#555" font-family="monospace" font-size="7">AI OUTPUT JSON</text>
+  <text x="734" y="310" fill="#a78bfa" font-family="monospace" font-size="7">{</text>
+  <text x="742" y="322" fill="#4ade80" font-family="monospace" font-size="7">"category":</text>
+  <text x="742" y="333" fill="#f97316" font-family="monospace" font-size="7">  "Advanced",</text>
+  <text x="742" y="344" fill="#4ade80" font-family="monospace" font-size="7">"ai_response":</text>
+  <text x="742" y="355" fill="#888" font-family="monospace" font-size="7">  "Great choice...</text>
+  <text x="734" y="366" fill="#a78bfa" font-family="monospace" font-size="7">}</text>
+
+  <text x="450" y="400" text-anchor="middle" fill="#444" font-family="monospace" font-size="8">Every email is unique · AI reads name, class, and message · Responds appropriately · Sent in under 30 seconds</text>
+
+  <text x="450" y="430" text-anchor="middle" fill="#333" font-family="monospace" font-size="8">Built by JPARO Systems · github.com/gmarr0</text>
+</svg>
+
+<svg viewBox="0 0 800 460" xmlns="http://www.w3.org/2000/svg" width="800" height="460">
+  <rect width="800" height="460" fill="#0a0a0a" rx="12"/>
+  <text x="400" y="28" text-anchor="middle" fill="#CC3300" font-family="monospace" font-size="11" font-weight="bold" letter-spacing="3">BRANDED LEAD CAPTURE FORM</text>
+  <!-- Browser -->
+  <rect x="55" y="42" width="690" height="390" rx="10" fill="#111" stroke="#222" stroke-width="1"/>
+  <rect x="55" y="42" width="690" height="34" rx="10" fill="#1e1e1e"/>
+  <rect x="55" y="64" width="690" height="12" fill="#1e1e1e"/>
+  <circle cx="78" cy="59" r="5" fill="#ff5f57"/>
+  <circle cx="94" cy="59" r="5" fill="#ffbd2e"/>
+  <circle cx="110" cy="59" r="5" fill="#28c840"/>
+  <rect x="138" y="51" width="420" height="16" rx="8" fill="#2a2a2a"/>
+  <text x="348" y="63" text-anchor="middle" fill="#555" font-family="monospace" font-size="8">https://leads.yourdomain.com/form/inquiry</text>
+  <text x="148" y="63" fill="#4ade80" font-family="monospace" font-size="8">&#128274;</text>
+  <!-- Form card -->
+  <rect x="230" y="82" width="340" height="332" rx="8" fill="white"/>
+  <!-- Logo -->
+  <rect x="252" y="96" width="296" height="56" rx="6" fill="#1a1a1a"/>
+  <text x="400" y="122" text-anchor="middle" fill="#CC3300" font-family="Arial" font-size="13" font-weight="bold">ELITE METAL WORKS</text>
+  <text x="400" y="138" text-anchor="middle" fill="#888" font-family="Arial" font-size="8">Welding Training LLC · Bakersfield, CA</text>
+  <text x="400" y="172" text-anchor="middle" fill="#1a1a1a" font-family="Arial" font-size="11" font-weight="bold">Class Inquiry Form</text>
+  <!-- Field: Name -->
+  <text x="248" y="192" fill="#888" font-family="Arial" font-size="8">Student Name</text>
+  <rect x="246" y="196" width="308" height="22" rx="4" fill="white" stroke="#ddd" stroke-width="1"/>
+  <text x="254" y="211" fill="#333" font-family="Arial" font-size="9">Alex Johnson</text>
+  <!-- Field: Phone -->
+  <text x="248" y="230" fill="#888" font-family="Arial" font-size="8">Phone Number</text>
+  <rect x="246" y="234" width="308" height="22" rx="4" fill="white" stroke="#ddd" stroke-width="1"/>
+  <text x="254" y="249" fill="#333" font-family="Arial" font-size="9">(661) 555-0192</text>
+  <!-- Field: Class dropdown - highlighted -->
+  <text x="248" y="270" fill="#888" font-family="Arial" font-size="8">Interested Class</text>
+  <rect x="246" y="274" width="308" height="22" rx="4" fill="white" stroke="#CC3300" stroke-width="1.5"/>
+  <text x="254" y="289" fill="#CC3300" font-family="Arial" font-size="9" font-weight="bold">TIG Welding  &#9660;</text>
+  <!-- Field: Email -->
+  <text x="248" y="310" fill="#888" font-family="Arial" font-size="8">Email Address *</text>
+  <rect x="246" y="314" width="308" height="22" rx="4" fill="white" stroke="#ddd" stroke-width="1"/>
+  <text x="254" y="329" fill="#333" font-family="Arial" font-size="9">alex@email.com</text>
+  <!-- Field: Message -->
+  <text x="248" y="350" fill="#888" font-family="Arial" font-size="8">Tell us about your project or question</text>
+  <rect x="246" y="354" width="308" height="40" rx="4" fill="white" stroke="#ddd" stroke-width="1"/>
+  <text x="254" y="367" fill="#333" font-family="Arial" font-size="8">Interested in TIG welding classes.</text>
+  <text x="254" y="379" fill="#333" font-family="Arial" font-size="8">I have basic experience and want to improve.</text>
+  <!-- Submit -->
+  <rect x="246" y="404" width="308" height="26" rx="5" fill="#CC3300"/>
+  <text x="400" y="421" text-anchor="middle" fill="white" font-family="Arial" font-size="10" font-weight="bold">Submit Inquiry</text>
+  <!-- Notification badge -->
+  <rect x="580" y="90" width="140" height="62" rx="8" fill="#1a1a1a" stroke="#0ea5e9" stroke-width="1.5"/>
+  <rect x="580" y="90" width="140" height="5" rx="2" fill="#0ea5e9"/>
+  <text x="590" y="110" fill="#38bdf8" font-family="monospace" font-size="9" font-weight="bold">&#128241; NEW LEAD</text>
+  <text x="590" y="125" fill="#888" font-family="monospace" font-size="8">Alex Johnson</text>
+  <text x="590" y="139" fill="#CC3300" font-family="monospace" font-size="8" font-weight="bold">TIG · Advanced</text>
+  <text x="590" y="150" fill="#555" font-family="monospace" font-size="7">Pushover Alert Sent</text>
+  <!-- AI badge -->
+  <rect x="580" y="170" width="140" height="72" rx="8" fill="#1a1a1a" stroke="#7c3aed" stroke-width="1.5"/>
+  <rect x="580" y="170" width="140" height="5" rx="2" fill="#7c3aed"/>
+  <text x="590" y="190" fill="#a78bfa" font-family="monospace" font-size="9" font-weight="bold">&#129302; AI RESPONSE</text>
+  <text x="590" y="205" fill="#888" font-family="monospace" font-size="8">Category Detected:</text>
+  <text x="590" y="219" fill="#CC3300" font-family="monospace" font-size="9" font-weight="bold">Advanced (TIG)</text>
+  <text x="590" y="233" fill="#4ade80" font-family="monospace" font-size="7">&#10003; Email Sent</text>
+  <!-- Sheets badge -->
+  <rect x="580" y="258" width="140" height="62" rx="8" fill="#1a1a1a" stroke="#16a34a" stroke-width="1.5"/>
+  <rect x="580" y="258" width="140" height="5" rx="2" fill="#16a34a"/>
+  <text x="590" y="278" fill="#4ade80" font-family="monospace" font-size="9" font-weight="bold">&#128202; SHEETS LOG</text>
+  <text x="590" y="293" fill="#888" font-family="monospace" font-size="8">Row Added</text>
+  <text x="590" y="307" fill="#555" font-family="monospace" font-size="7">Lead Captured · 2026-04-10</text>
+  <!-- Cloudflare banner -->
+  <rect x="55" y="344" width="690" height="58" rx="0" fill="#111"/>
+  <rect x="55" y="344" width="690" height="1" fill="#1a1a1a"/>
+  <text x="400" y="365" text-anchor="middle" fill="#f97316" font-family="monospace" font-size="9" font-weight="bold">&#128274; CLOUDFLARE TUNNEL ACTIVE</text>
+  <text x="400" y="380" text-anchor="middle" fill="#555" font-family="monospace" font-size="8">All traffic encrypted · No server IP exposed · Zero open firewall ports</text>
+  <text x="400" y="394" text-anchor="middle" fill="#444" font-family="monospace" font-size="7">Built by JPARO Systems · AI-Powered Lead Automation</text>
+</svg>
+
+<svg viewBox="0 0 900 400" xmlns="http://www.w3.org/2000/svg" width="900" height="400">
+  <rect width="900" height="400" fill="#0f0f0f" rx="12"/>
+  <text x="450" y="30" text-anchor="middle" fill="#CC3300" font-family="monospace" font-size="12" font-weight="bold" letter-spacing="3">AI LEAD MANAGEMENT PIPELINE</text>
+  <text x="75" y="58" text-anchor="middle" fill="#555" font-family="monospace" font-size="8">STEP 1</text>
+  <text x="220" y="58" text-anchor="middle" fill="#555" font-family="monospace" font-size="8">STEP 2</text>
+  <text x="365" y="58" text-anchor="middle" fill="#555" font-family="monospace" font-size="8">STEP 3</text>
+  <text x="500" y="58" text-anchor="middle" fill="#555" font-family="monospace" font-size="8">STEP 4</text>
+  <text x="635" y="58" text-anchor="middle" fill="#555" font-family="monospace" font-size="8">STEP 5</text>
+  <rect x="20" y="65" width="110" height="85" rx="8" fill="#1a1a1a" stroke="#CC3300" stroke-width="1.5"/>
+  <rect x="20" y="65" width="110" height="5" rx="3" fill="#CC3300"/>
+  <text x="75" y="92" text-anchor="middle" fill="#CC3300" font-family="monospace" font-size="9" font-weight="bold">FORM TRIGGER</text>
+  <text x="75" y="107" text-anchor="middle" fill="#777" font-family="monospace" font-size="8">n8n</text>
+  <text x="75" y="120" text-anchor="middle" fill="#555" font-family="monospace" font-size="7">Branded Web Form</text>
+  <rect x="32" y="130" width="86" height="4" rx="2" fill="#2a2a2a"/>
+  <rect x="32" y="138" width="60" height="4" rx="2" fill="#2a2a2a"/>
+  <line x1="132" y1="107" x2="163" y2="107" stroke="#CC3300" stroke-width="1.5"/>
+  <polygon points="163,103 171,107 163,111" fill="#CC3300"/>
+  <rect x="165" y="65" width="110" height="85" rx="8" fill="#1a1a1a" stroke="#7c3aed" stroke-width="1.5"/>
+  <rect x="165" y="65" width="110" height="5" rx="3" fill="#7c3aed"/>
+  <text x="220" y="92" text-anchor="middle" fill="#a78bfa" font-family="monospace" font-size="9" font-weight="bold">AI CLASSIFIER</text>
+  <text x="220" y="107" text-anchor="middle" fill="#777" font-family="monospace" font-size="8">Ollama / LLaMA 3</text>
+  <text x="220" y="120" text-anchor="middle" fill="#555" font-family="monospace" font-size="7">Local AI · No API Fees</text>
+  <rect x="177" y="130" width="86" height="4" rx="2" fill="#1e1a2e"/>
+  <rect x="177" y="138" width="60" height="4" rx="2" fill="#1e1a2e"/>
+  <line x1="277" y1="107" x2="308" y2="107" stroke="#CC3300" stroke-width="1.5"/>
+  <polygon points="308,103 316,107 308,111" fill="#CC3300"/>
+  <rect x="310" y="65" width="110" height="85" rx="8" fill="#1a1a1a" stroke="#16a34a" stroke-width="1.5"/>
+  <rect x="310" y="65" width="110" height="5" rx="3" fill="#16a34a"/>
+  <text x="365" y="92" text-anchor="middle" fill="#4ade80" font-family="monospace" font-size="9" font-weight="bold">GOOGLE SHEETS</text>
+  <text x="365" y="107" text-anchor="middle" fill="#777" font-family="monospace" font-size="8">Lead Logger</text>
+  <text x="365" y="120" text-anchor="middle" fill="#555" font-family="monospace" font-size="7">Live Dashboard</text>
+  <rect x="322" y="130" width="86" height="4" rx="2" fill="#1a2a1a"/>
+  <rect x="322" y="138" width="60" height="4" rx="2" fill="#1a2a1a"/>
+  <line x1="422" y1="107" x2="453" y2="107" stroke="#CC3300" stroke-width="1.5"/>
+  <polygon points="453,103 461,107 453,111" fill="#CC3300"/>
+  <rect x="455" y="65" width="110" height="85" rx="8" fill="#1a1a1a" stroke="#0ea5e9" stroke-width="1.5"/>
+  <rect x="455" y="65" width="110" height="5" rx="3" fill="#0ea5e9"/>
+  <text x="510" y="92" text-anchor="middle" fill="#38bdf8" font-family="monospace" font-size="9" font-weight="bold">PUSHOVER</text>
+  <text x="510" y="107" text-anchor="middle" fill="#777" font-family="monospace" font-size="8">Owner Alert</text>
+  <text x="510" y="120" text-anchor="middle" fill="#555" font-family="monospace" font-size="7">Instant Phone Push</text>
+  <rect x="467" y="130" width="86" height="4" rx="2" fill="#0a1a2a"/>
+  <rect x="467" y="138" width="60" height="4" rx="2" fill="#0a1a2a"/>
+  <line x1="567" y1="107" x2="598" y2="107" stroke="#CC3300" stroke-width="1.5"/>
+  <polygon points="598,103 606,107 598,111" fill="#CC3300"/>
+  <rect x="600" y="65" width="110" height="85" rx="8" fill="#1a1a1a" stroke="#f59e0b" stroke-width="1.5"/>
+  <rect x="600" y="65" width="110" height="5" rx="3" fill="#f59e0b"/>
+  <text x="655" y="92" text-anchor="middle" fill="#fcd34d" font-family="monospace" font-size="9" font-weight="bold">SWITCH ROUTER</text>
+  <text x="655" y="107" text-anchor="middle" fill="#777" font-family="monospace" font-size="8">5 Routes</text>
+  <text x="655" y="120" text-anchor="middle" fill="#555" font-family="monospace" font-size="7">AI Category Based</text>
+  <line x1="715" y1="90" x2="760" y2="55" stroke="#CC3300" stroke-width="0.75" stroke-dasharray="3,2"/>
+  <line x1="715" y1="100" x2="760" y2="97" stroke="#7c3aed" stroke-width="0.75" stroke-dasharray="3,2"/>
+  <line x1="715" y1="108" x2="760" y2="140" stroke="#16a34a" stroke-width="0.75" stroke-dasharray="3,2"/>
+  <line x1="715" y1="116" x2="760" y2="182" stroke="#0ea5e9" stroke-width="0.75" stroke-dasharray="3,2"/>
+  <line x1="715" y1="124" x2="760" y2="224" stroke="#888" stroke-width="0.75" stroke-dasharray="3,2"/>
+  <rect x="760" y="40" width="125" height="30" rx="6" fill="#1a1a1a" stroke="#CC3300" stroke-width="1"/>
+  <rect x="760" y="40" width="125" height="4" rx="2" fill="#CC3300"/>
+  <text x="822" y="57" text-anchor="middle" fill="#CC3300" font-family="monospace" font-size="8" font-weight="bold">BEGINNER</text>
+  <text x="822" y="67" text-anchor="middle" fill="#555" font-family="monospace" font-size="7">MIG / STICK</text>
+  <rect x="760" y="82" width="125" height="30" rx="6" fill="#1a1a1a" stroke="#7c3aed" stroke-width="1"/>
+  <rect x="760" y="82" width="125" height="4" rx="2" fill="#7c3aed"/>
+  <text x="822" y="99" text-anchor="middle" fill="#a78bfa" font-family="monospace" font-size="8" font-weight="bold">ADVANCED</text>
+  <text x="822" y="109" text-anchor="middle" fill="#555" font-family="monospace" font-size="7">TIG Welding</text>
+  <rect x="760" y="124" width="125" height="30" rx="6" fill="#1a1a1a" stroke="#16a34a" stroke-width="1"/>
+  <rect x="760" y="124" width="125" height="4" rx="2" fill="#16a34a"/>
+  <text x="822" y="141" text-anchor="middle" fill="#4ade80" font-family="monospace" font-size="8" font-weight="bold">CLIENT</text>
+  <text x="822" y="151" text-anchor="middle" fill="#555" font-family="monospace" font-size="7">Local Welding Work</text>
+  <rect x="760" y="166" width="125" height="30" rx="6" fill="#1a1a1a" stroke="#0ea5e9" stroke-width="1"/>
+  <rect x="760" y="166" width="125" height="4" rx="2" fill="#0ea5e9"/>
+  <text x="822" y="183" text-anchor="middle" fill="#38bdf8" font-family="monospace" font-size="8" font-weight="bold">KIDS</text>
+  <text x="822" y="193" text-anchor="middle" fill="#555" font-family="monospace" font-size="7">Workshop Parents</text>
+  <rect x="760" y="208" width="125" height="30" rx="6" fill="#1a1a1a" stroke="#888" stroke-width="1"/>
+  <rect x="760" y="208" width="125" height="4" rx="2" fill="#888"/>
+  <text x="822" y="225" text-anchor="middle" fill="#aaa" font-family="monospace" font-size="8" font-weight="bold">CUSTOM</text>
+  <text x="822" y="235" text-anchor="middle" fill="#555" font-family="monospace" font-size="7">General Inquiries</text>
+  <rect x="20" y="185" width="430" height="44" rx="8" fill="#1a1a1a" stroke="#f97316" stroke-width="1"/>
+  <rect x="20" y="185" width="430" height="4" rx="2" fill="#f97316"/>
+  <text x="235" y="207" text-anchor="middle" fill="#fb923c" font-family="monospace" font-size="10" font-weight="bold">CLOUDFLARE TUNNEL</text>
+  <text x="235" y="222" text-anchor="middle" fill="#555" font-family="monospace" font-size="8">HTTPS · Zero Exposed Ports · No Public IP · Enterprise-Grade Security</text>
+  <rect x="20" y="255" width="100" height="58" rx="8" fill="#1a1a1a" stroke="#2a2a2a" stroke-width="1"/>
+  <text x="70" y="281" text-anchor="middle" fill="#CC3300" font-family="monospace" font-size="20" font-weight="bold">&lt;30s</text>
+  <text x="70" y="298" text-anchor="middle" fill="#555" font-family="monospace" font-size="7">Response Time</text>
+  <rect x="133" y="255" width="100" height="58" rx="8" fill="#1a1a1a" stroke="#2a2a2a" stroke-width="1"/>
+  <text x="183" y="281" text-anchor="middle" fill="#4ade80" font-family="monospace" font-size="20" font-weight="bold">100%</text>
+  <text x="183" y="298" text-anchor="middle" fill="#555" font-family="monospace" font-size="7">Leads Logged</text>
+  <rect x="246" y="255" width="100" height="58" rx="8" fill="#1a1a1a" stroke="#2a2a2a" stroke-width="1"/>
+  <text x="296" y="281" text-anchor="middle" fill="#fcd34d" font-family="monospace" font-size="20" font-weight="bold">$0</text>
+  <text x="296" y="298" text-anchor="middle" fill="#555" font-family="monospace" font-size="7">Monthly SaaS Cost</text>
+  <rect x="359" y="255" width="100" height="58" rx="8" fill="#1a1a1a" stroke="#2a2a2a" stroke-width="1"/>
+  <text x="409" y="281" text-anchor="middle" fill="#38bdf8" font-family="monospace" font-size="20" font-weight="bold">5</text>
+  <text x="409" y="298" text-anchor="middle" fill="#555" font-family="monospace" font-size="7">AI Categories</text>
+  <rect x="20" y="333" width="860" height="38" rx="6" fill="#1a1a1a"/>
+  <text x="450" y="356" text-anchor="middle" fill="#444" font-family="monospace" font-size="8">n8n  ·  Ollama / LLaMA 3  ·  Google Sheets  ·  Cloudflare Tunnel  ·  Pushover  ·  Gmail SMTP  ·  Self-Hosted</text>
+  <rect x="730" y="255" width="150" height="58" rx="8" fill="#CC3300"/>
+  <text x="805" y="279" text-anchor="middle" fill="white" font-family="monospace" font-size="11" font-weight="bold">JPARO SYSTEMS</text>
+  <text x="805" y="294" text-anchor="middle" fill="#ffccbb" font-family="monospace" font-size="7">AI Automation</text>
+  <text x="805" y="306" text-anchor="middle" fill="#ffccbb" font-family="monospace" font-size="7">Self-Hosted Infrastructure</text>
 </svg>
